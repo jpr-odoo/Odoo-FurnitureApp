@@ -85,7 +85,7 @@ export default function ProductCard() {
         </div>
         
       </div>
-      <button className="mt-6 text-teal-500 font-bold text-lg underline">
+      <button className="mt-6 text-white font-bold text-lg py-2 px-6 rounded-lg bg-gradient-to-r from-red-400 to-red-600 shadow-md hover:shadow-lg transition-shadow duration-300 hover:from-red-500 hover:to-red-700">
 View More Products 
       </button>
     </div>

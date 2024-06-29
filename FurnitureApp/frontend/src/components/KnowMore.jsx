@@ -4,32 +4,32 @@ import { LocalShipping, Build, Autorenew, Refresh, EventBusy, Cached } from '@mu
 
 const benefits = [
   {
-    icon: <LocalShipping style={{ fontSize: 40, color: '#00C1D4' }} />,
+    icon: <LocalShipping style={{ fontSize: 40, color: '#126DED' }} />,
     title: 'Finest-quality products',
     description: 'Quality matters to you, and us! That\'s why we do a strict quality-check for every product.',
   },
   {
-    icon: <Refresh style={{ fontSize: 40, color: '#00C1D4' }} />,
+    icon: <Refresh style={{ fontSize: 40, color: '#126DED' }} />,
     title: 'Free relocation',
     description: 'Changing your house or even your city? We\'ll relocate your rented products for free.',
   },
   {
-    icon: <Build style={{ fontSize: 40, color: '#00C1D4' }} />,
+    icon: <Build style={{ fontSize: 40, color: '#126DED' }} />,
     title: 'Free maintenance',
     description: 'Keeping your rented products in a spick and span condition is on us, so you can sit back and relax.',
   },
   {
-    icon: <EventBusy style={{ fontSize: 40, color: '#00C1D4' }} />,
+    icon: <EventBusy style={{ fontSize: 40, color: '#126DED' }} />,
     title: 'Cancel anytime',
     description: 'Pay only for the time you use the product and close your subscription without any hassle.',
   },
   {
-    icon: <Autorenew style={{ fontSize: 40, color: '#00C1D4' }} />,
+    icon: <Autorenew style={{ fontSize: 40, color: '#126DED' }} />,
     title: 'Easy return on delivery',
     description: 'If you don\'t like the product on delivery, you can return it right away—no questions asked.',
   },
   {
-    icon: <Cached style={{ fontSize: 40, color: '#00C1D4' }} />,
+    icon: <Cached style={{ fontSize: 40, color: '#126DED' }} />,
     title: 'Keep upgrading',
     description: 'Bored of the same product? Upgrade to try another, newer design and enjoy the change!',
   },
@@ -51,7 +51,7 @@ const RentingBenefits = () => {
           </div>
         ))}
       </div>
-      <button className="mt-6 text-teal-500 font-bold text-lg underline">
+      <button className="mt-6 text-white font-bold text-lg py-2 px-6 rounded-lg bg-gradient-to-r from-blue-400 to-blue-600 shadow-md hover:shadow-lg transition-shadow duration-300 hover:from-blue-500 hover:to-blue-700">
         KNOW MORE
       </button>
     </div>
