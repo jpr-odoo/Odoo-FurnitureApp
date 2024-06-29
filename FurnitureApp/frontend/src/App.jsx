@@ -5,9 +5,10 @@ import HeroSectionMain from "./components/HeroSectionMain"
 import Categories from './components/Categories';
 // import ProductListing from './components/ProductListing';
 import Footer from './components/Footer';
-// import ResponsiveAppBar from './components/ResponsiveAppBar'
+import ResponsiveAppBar from './components/ResponsiveAppBar'
 import HeaderBefore from "./components/HeaderBefore"
 import FurnitureCard from "./components/FurnitureCard"
+// import KnowMore from './components/KnowMore';
 
 function App() {
 
@@ -21,8 +22,9 @@ function App() {
 
         <Categories />
         <FurnitureCard/>
+        {/* <KnowMore/> */}
         {/* <ProductListing /> */}
-        {/* <Footer /> */}
+        <Footer />
     </div>
     </>
   )
