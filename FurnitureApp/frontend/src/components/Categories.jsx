@@ -18,7 +18,10 @@ const categories = [
 export default function RentCategories() {
   return (
     <div className="text-center py-8">
-      <h2 className="text-2xl font-semibold mb-6">Rent Furniture & Appliances</h2>
+      <h2 className="text-2xl font-semibold mb-6 relative inline-block">
+        Rent Furniture & Appliances
+        <div className="h-1 w-16 bg-red-500 mx-auto mb-4 mt-3" />
+      </h2>
       <div className="flex justify-center gap-6">
         {categories.map((category) => (
           <a

@@ -47,7 +47,7 @@ export default function ProductCard() {
         <Typography variant="h4" className="mb-2">
           You'll love to take these home
         </Typography>
-        <div className="h-0.5 w-16 bg-red-500 mx-auto mb-4" />
+        <div className="h-1 w-16 bg-red-500 mx-auto mb-4 " />
       </div>
       <div className="relative w-full max-w-5xl">
         <div className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10">
