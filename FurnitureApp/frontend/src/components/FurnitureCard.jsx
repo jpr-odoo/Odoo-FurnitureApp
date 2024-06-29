@@ -83,7 +83,11 @@ export default function ProductCard() {
             <ChevronRightIcon className="w-6 h-6" />
           </IconButton>
         </div>
+        
       </div>
+      <button className="mt-6 text-teal-500 font-bold text-lg underline">
+View More Products 
+      </button>
     </div>
   );
 }
